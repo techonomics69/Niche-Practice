@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
+.StripeElement {
+    display: block;
+    box-shadow:none;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 14px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e8e8e8;
+    height: 38px;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+}
+.ElementsApp, .ElementsApp .InputElement {
+    font-family: 'Open Sans', sans-serif;
+}
+.__PrivateStripeElement {
+    top: 6px;
+}
+.StripeElement--focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+.card-number-input {
+    position: relative;
+}
+.card-number-input .brand {
+    position: absolute;
+    right: 4px;
+    top: 30px;
+    /*color: #999;*/
+}
+.StripeElement.invalid {
+  border-color: red;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+.brand {
+	/*border:1px solid red;*/
+    display: inline-block;
+    margin-top: 1px;
+    position: absolute;
+    margin-left: 0px;
+    height: 36px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+/*------------------------------------------------*/
+
+.submitting .StripeElement{
+    background-color: #eee !important;
+    opacity: 1;
+}
+
+
+/*main > .container-lg .example.submitted form,*/
+/*main > .container-lg .example.submitting form {*/
+    /*opacity: 0;*/
+    /*transform: scale(0.9);*/
+    /*pointer-events: none;*/
+/*}*/
+
+/*main > .container-lg .example.submitted .success,*/
+/*main > .container-lg .example.submitting .success {*/
+    /*pointer-events: all;*/
+/*}*/
+
+/*main > .container-lg .example.submitting .success .icon {*/
+    /*opacity: 1;*/
+/*}*/
+
+/*main > .container-lg .example.submitted .success > * {*/
+    /*opacity: 1;*/
+    /*transform: none !important;*/
+/*}*/
+
+/*main > .container-lg .example.submitted .success > :nth-child(2) {*/
+    /*transition-delay: 0.1s;*/
+/*}*/
+
+/*main > .container-lg .example.submitted .success > :nth-child(3) {*/
+    /*transition-delay: 0.2s;*/
+/*}*/
+
+/*main > .container-lg .example.submitted .success > :nth-child(4) {*/
+    /*transition-delay: 0.3s;*/
+/*}*/
+
+/*main > .container-lg .example.submitted .success .icon .border,*/
+/*main > .container-lg .example.submitted .success .icon .checkmark {*/
+    /*opacity: 1;*/
+    /*stroke-dashoffset: 0 !important;*/
+/*}*/
+
+
+main > .container-lg .example .error,
+main > .example .error{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: red;
+    width: 100%;
+    top: 100%;
+    margin-top: 20px;
+    left: 0;
+    padding: 0 15px;
+    font-size: 13px !important;
+    opacity: 0;
+    transform: translateY(10px);
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+main > .container-lg .example .error.visible,
+main > .example .error.visible{
+    opacity: 1;
+    transform: none;
+}
+
+main > .container-lg .example .error .message,
+main > .example .error .message {
+    font-size: inherit;
+}
+
+main > .container-lg .example .error svg,
+main > .example .error svg{
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: -1px;
+    margin-right: 10px;
+}
+
+
+
+main > .container-lg .example .success > *,
+main > .example .success > * {
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+main > .container-lg .example .success .icon,
+main > .example .success .icon{
+    margin: 15px 0 30px;
+    transform: translateY(70px) scale(0.75);
+}
+
+main > .container-lg .example .success .icon svg,
+main > .example .success .icon svg{
+    will-change: transform;
+}
+
+main > .container-lg .example .success .icon .border,
+main > .example .success .icon .border{
+    stroke-dasharray: 251;
+    stroke-dashoffset: 62.75;
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: spin 1s linear infinite;
+}
+
+main > .container-lg .example .success .icon .checkmark,
+main > .example .success .icon .checkmark{
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    transition: stroke-dashoffset 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0.35s;
+}
+
+main > .container-lg .example .success .title,
+main > .example .success .title{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+main > .container-lg .example .success .message,
+main > .example .success .message{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 1.6em;
+}
+
+main > .container-lg .example .success .message span,
+main > .example .success .message span{
+    font-size: inherit;
+}
+
+main > .container-lg .example .success .reset:active,
+main > .example .success .reset:active{
+    transition-duration: 0.15s;
+    transition-delay: 0s;
+    opacity: 0.65;
+}
+
+main > .container-lg .example .success .reset svg,
+main > .example .success .reset svg{
+    will-change: transform;
+}
+
+

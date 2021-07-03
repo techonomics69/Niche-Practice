@@ -1,0 +1,32 @@
+/**
+Abdul Rehman
+ */
+.show-me
+{
+    display: block;
+}
+
+.hide-me
+{
+    display: none;
+}
+
+.error
+{
+    display: block;
+    color: red;
+}
+.help-block
+{
+    margin-bottom: 0;
+}
+
+span.error strong, span.error small {
+    font-size: 13px;
+    color: #ff8181;
+    font-weight: 300;
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #f33155;
+}

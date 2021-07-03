@@ -1,0 +1,249 @@
+.content > h1
+{
+    font-size: 24px;
+}
+/*.form-control-1*/
+/*{*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 34px;*/
+/*    padding: 6px 12px;*/
+/*    font-size: 14px;*/
+/*    line-height: 1.42857143;*/
+/*    color: #555;*/
+/*    background-color: #fff;*/
+/*    background-image: none;*/
+/*    border: 1px solid #ccc;*/
+/*}*/
+table.table-form
+{
+    background-color: #fff;
+    margin:0 0 5px 0;
+    padding:0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-radius: 4px;
+
+}
+div.form
+{
+    background-color: #fff;
+    margin:0 0 5px 0;
+    padding:0;
+    border:3px solid #e2e7e9;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-radius: 4px;
+
+}
+table.table-form td.fieldlabel {
+    background-color: #fff;
+    text-align: right;
+}
+table.table-form td.fieldlabel-1 {
+    background-color: #fff;
+    text-align: right;
+}
+table .table-form td
+{
+ padding: 3px 5px;
+}
+table.table-form td.fieldarea {
+    background-color: #efefef;
+    text-align: left;
+}
+table.table-form td.fieldarea-1 {
+     background-color: #efefef;
+     text-align: left;
+ }
+.input-250 {
+    max-width: 250px !important;
+    margin-left : 5px;
+}
+.input-inline {
+    display: inline-block !important;
+}
+small {
+    font-size: 85%;
+}
+.input-280 {
+    max-width: 280px !important;
+    margin-left : 5px;
+}
+.input-150 {
+    max-width: 150px;
+    margin-left : 5px;
+}
+.select-inline {
+    display: inline;
+    min-width: 20%;
+    max-width: 25%;
+    width: auto;
+    margin-left : 5px;
+}
+.input-130
+{
+    max-width: 130px !important;
+}
+.select-inline-1
+{
+    display: inline;
+    min-width: 20%;
+    max-width: 50% !important;
+    width: auto;
+    margin-left : 5px;
+}
+.iti__selected-flag
+{
+    background-color: rgba(0,0,0,.05);
+}
+.input-200 {
+    max-width: 200px;
+    margin-left : 5px !important;
+}
+.btn-container {
+    padding: 10px 0;
+    text-align: center;
+}
+.checkbox-inline{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+input[type=checkbox] {
+    margin: 4px 0 0;
+    line-height: normal;
+}
+.hidden-field
+{
+    max-width:300px;
+    background-color: #efefef;
+    border:none;
+    padding: 4px 8px;
+    height: 30px;
+    /*display: none;*/
+    outline:none;
+}
+@media (max-width: 767px)
+{
+    div.form table.table-form tr td.fieldlabel {
+        padding-bottom: 0;
+        font-weight: 700;
+        background-color: #efefef;
+    }
+
+}
+@media (max-width:767px)
+{
+     div.form table.table-form tr td.fieldarea {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 767px)
+{
+    div.form table.table-form tr, div.form table.table-form tr td.fieldarea,
+    div.form table.table-form tr td.fieldarea input[type=text],
+    div .form table.table-form tr td.fieldarea select,
+    div.form table.table-form tr td.fieldlabel
+    {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px)
+{
+    /*div.form table.table-form tr, div.form table.table-form tr td.fieldarea,*/
+    div.form table.table-form tr td.fieldarea input[type=text],
+    div .form table.table-form tr td.fieldarea select
+    /*div.form table.table-form tr td.fieldlabel*/
+    {
+        /*display: block;*/
+        width: 98% !important;
+        max-width: 98% !important;
+        /*text-align: left;*/
+    }
+}
+@media(max-width:767px)
+{
+    div.form table.table-form .iti
+    {
+        width:100%;
+        max-width:100%;
+    }
+}
+@media(max-width:767px)
+{
+    table.table-form td.fieldarea-1,
+    table.table-form td.fieldlabel-1
+    {
+        display:none;
+    }
+}
+/*Media queries for both*/
+@media (min-width :768px) and (max-width:991px)
+{
+    div.form table.table-form tr td.fieldlabel {
+        padding-bottom: 0;
+        font-weight: 700;
+        background-color: #efefef;
+    }
+}
+@media (min-width :768px) and (max-width:991px)
+{
+    div.form table.table-form tr td.fieldarea {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        word-wrap: break-word;
+    }
+}
+@media (min-width :768px) and (max-width:991px)
+{
+    div.form table.table-form tr, div.form table.table-form tr td.fieldarea,
+    div.form table.table-form tr td.fieldarea input[type=text],
+    div .form table.table-form tr td.fieldarea select,
+    div.form table.table-form tr td.fieldlabel
+    {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: left;
+    }
+}
+@media (min-width :768px) and (max-width:991px)
+{
+    /*div.form table.table-form tr, div.form table.table-form tr td.fieldarea,*/
+    div.form table.table-form tr td.fieldarea input[type=text],
+    div .form table.table-form tr td.fieldarea select
+        /*div.form table.table-form tr td.fieldlabel*/
+    {
+        /*display: block;*/
+        width: 98% !important;
+        max-width: 98% !important;
+        /*text-align: left;*/
+    }
+}
+@media (min-width :768px) and (max-width:991px)
+{
+    div.form table.table-form .iti
+    {
+        width:100%;
+        max-width:100%;
+    }
+}
+@media (min-width :768px) and (max-width:991px)
+{
+    table.table-form td.fieldarea-1,
+    table.table-form td.fieldlabel-1
+    {
+        display:none;
+    }
+}

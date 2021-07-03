@@ -1,0 +1,201 @@
+.post_item_time_container .post_item_time::after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-top: -20px;
+    border-left: 10px solid #0b76c4;
+    left: 122px;
+}
+
+/* CSS For Social Media Landing Page and Connect Modals */
+
+.social-posts-heading h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.social-posts-heading h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.social-post-widgets .social-widget {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 10px;
+    width: 220px;
+    height: 285px;
+}
+.social-post-widgets .social-widget:hover {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.social-post-widgets .social-widget h4 {
+    margin-top: 30px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /*width: 200px;*/
+    white-space: nowrap;
+    padding: 0 10px;
+}
+.social-post-widgets .social-widget img {
+    margin-top: 30px;
+}
+.social-widget .image-user {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.social-widget .image-site {
+    position: absolute;
+    top: 80px;
+    left: 125px;
+}
+.social-widget .connected-btn-state {
+    min-width: 110px;
+    color: #fff;
+    background: #24C046;
+    padding: 8px 30px;
+    position: absolute;
+    top: 87%;
+    left: 0;
+    width: 100%;
+    border-radius: 0px 0px 3px 3px;
+}
+.social-post-widgets .social-widget .connected-date {
+    color: #656565;
+}
+.social-post-widgets .facebook-widget-btn {
+    background: #1D32A0;
+    min-width: 110px;
+    color: #fff;
+    padding: 8px 30px;
+    margin-top: 30px;
+
+}
+.social-post-widgets .twitter-widget-btn {
+    background: #00C4FE;
+    min-width: 110px;
+    color: #fff;
+    padding: 8px 30px;
+    margin-top: 30px;
+}
+.social-post-widgets .instagram-widget-btn {
+    background: #BD1A7A;
+    min-width: 110px;
+    color: #fff;
+    padding: 8px 30px;
+    margin-top: 30px;
+}
+.social-post-widgets .linkedin-widget-btn {
+    background: #4875B4;
+    min-width: 110px;
+    color: #fff;
+    padding: 8px 30px;
+    margin-top: 30px;
+}
+.social-post-widgets .facebook-connect-icon {
+    background-color: #EBEBEB;
+    background-image: url(../../images/facebook-modal-connect.png);
+    height: 166px;
+    width: 166px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 90px;
+    margin: auto;
+}
+.social-post-widgets .twitter-connect-icon {
+    background-color: #EBEBEB;
+    background-image: url(../../images/twitter-modal-connect.png);
+    height: 166px;
+    width: 166px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 90px;
+    margin: auto;
+}
+.social-post-widgets .instagram-connect-icon {
+    background-color: #EBEBEB;
+    background-image: url(../../images/instagram-modal-connect.png);
+    height: 166px;
+    width: 166px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 90px;
+    margin: auto;
+}
+.social-post-widgets .linkedin-connect-icon {
+    background-color: #EBEBEB;
+    background-image: url(../../images/linkedin-modal-connect.png);
+    height: 166px;
+    width: 166px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 90px;
+    margin: auto;
+}
+.social-post-widgets .social-modal-content h3 {
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.social-post-widgets .social-modal-content h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #5A5A5A;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.social-post-widgets .modal-footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-post-widgets .modal-dialog {
+    width: auto;
+    max-width: 940px;
+}
+.social-post-widgets .modal-dialog .modal-header .close {
+    color: #000;
+    opacity: 2;
+    font-size: 24px;
+}
+.social-widget .remove-button {
+    margin-top: 5px;
+    background-color: #ddd;
+}
+.social-widget .connected-label {
+    text-align: left;
+    position: absolute;
+    top: 12px;
+    background: #24c046;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 0 3px 3px 0;
+}
+
+@media(max-width:550px){
+    .social-post-widgets .social-widget h4 {
+        width: 160px;
+    }
+}

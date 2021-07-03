@@ -1,0 +1,397 @@
+#toast-container{
+    margin-top: 75px !important;
+    margin-right: 20px !important;
+}
+#toast-container > div {
+    opacity: 0.9 !important;
+}
+
+#page-wrapper, .white-box {
+    background: #f4f8f9;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-top: 12px;
+}
+.page-content .page-header {
+    margin: 0 0 6px;
+    border-bottom: none;
+}
+#customizeEmailModal .modal-heading label {
+    font-weight: normal;
+}
+
+.crm-customers-settings-panel{
+    /*background: #f4f8f9;*/
+    padding: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.crm-customers-settings-panel-footer{
+    /*padding: 14px;*/
+    /*margin-left: 12px;*/
+    /*padding-top: 10px;*/
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 14px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+.crm-customers-settings-panel-footer #save_settings{
+    background: #1D32A0!important;
+    color: #fff;
+}
+#preview_panel{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.crm-customers-settings-panel .form-group{
+    margin-bottom: 0px;
+}
+
+.crm-customers-settings-panel .heading{
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+}
+
+.crm-customers-settings-panel .email-content{
+    background: #ffffff;
+    border: 1px solid gainsboro;
+    padding-top: 5px;
+    min-height: 200px;
+    line-height: 2;
+    position: relative;
+}
+
+.crm-customers-settings-panel .sms-content{
+    background: #ffffff;
+    border: 1px solid gainsboro;
+    padding-top: 5px;
+    min-height: 200px;
+    line-height: 2;
+}
+
+.crm-customers-settings-panel .email-content h4,
+.crm-customers-settings-panel .sms-content h4{
+    text-align: center;
+}
+
+.customers_settings_wrapper .help-text-container{
+    padding: 30px !important;
+}
+
+.customers-settings-select{
+    min-width: 130px !important;
+    float: right !important;
+}
+
+#sms-content,
+#email-content{
+    /*word-break: break-all !important;*/
+    white-space: pre-line !important;
+    word-wrap: break-word !important;
+}
+
+/*#email-content .demoLink,
+#customizedEmailMessagePreview .demoLink{
+    text-decoration: underline !important;
+}*/
+
+@media (min-width: 320px) and (max-width: 550px) {
+
+    .sms-character-count {
+        margin-top: 10px !important;
+        /*position: absolute;*/
+        /*top: 90% !important;*/
+        /*left: 78% !important;*/
+    }
+    .reset-default-preview {
+        min-width: 150px;
+    }
+    .crm-customers-settings-panel {
+        width: 100%;
+        margin-left: 0;
+    }
+    .white-box {
+        padding: 0;
+    }
+    .crm-customers-settings-panel .heading {
+        font-size: 14px;
+    }
+    .edit-preview .modal-dialog{
+        width: 90%;
+    }
+
+    .customers-settings-select {
+        min-width: 100px !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .crm-customers-settings-panel {
+        margin-left: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .reset-default-preview {
+        min-width: 150px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .crm-customers-settings-panel-footer {
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .help-text-container{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1301px) {
+    .customers-settings-select{
+        max-width: 190px !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+
+    .customers-settings-select{
+        max-width: 141px !important;
+    }
+}
+
+@media (min-width: 1302px) and (max-width: 1335px) {
+
+    .customers-settings-select{
+        max-width: 141px !important;
+    }
+}
+
+@media (min-width: 1444px) and (max-width: 1475px) {
+
+    .customers-settings-select{
+        max-width: 141px !important;
+    }
+}
+
+@media (min-width: 1240px) and (max-width: 1255px) {
+
+    .customers-settings-select{
+        max-width: 135px !important;
+    }
+}
+
+#helpText{
+    margin-top: 10px !important;
+}
+
+#save_settings.disabled:hover:before {
+    content: attr(data-title);
+    position: absolute;
+    white-space: nowrap;
+    color: #000000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    line-break: auto;
+    padding: 9px 14px;
+}
+
+.dropdown-menu>li>a {
+    padding: 10px 20px !important;
+}
+
+/*---------------------------*/
+.customers-settings-select .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    color: #000;
+    font-weight: normal;
+}
+
+.reset-default-preview {
+    float: right;
+    margin-top: 10px;
+    color: #b9b9b9;
+    text-decoration: underline;
+}
+
+.edit-preview {
+    float: right;
+    color: #000;
+    margin-top: 2px;
+}
+/*---------------------------*/
+
+
+#helpText{
+    margin-top: 10px !important;
+}
+
+#save_settings.disabled:hover:before {
+    content: attr(data-title);
+    position: absolute;
+    white-space: nowrap;
+    color: #000000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    line-break: auto;
+    padding: 9px 14px;
+}
+.preview-right h3 {
+    margin: 0;
+}
+.preview-right .preview-text {
+    margin-top: 10px;
+}
+.customer-msg-preview {
+    padding: 0 10px;
+}
+.customer-msg-preview textarea {
+    resize: none;
+    width: 100%;
+    min-height: 170px;
+    padding: 4px 5px;
+    font-size: 16px;
+}
+.previewarea-left {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#customizedEmailMessagePreview,
+#customizedSMSMessagePreview{
+    width: 100%;
+    /*word-break: break-all;*/
+    font-size: 16px;
+    /*min-height: 170px;*/
+	height: 170px;
+    border: solid 1px #ddd;
+    padding: 5px 5px;
+    white-space: pre-line;
+    word-wrap: break-word;
+    overflow: auto;
+}
+.reset-default-preview {
+    float: right;
+    margin-top: 10px;
+    color: #1D32A0;
+    text-decoration: none;
+}
+.reset-default-preview:hover {
+text-decoration: underline;
+}
+.email-preview-wrap, .sms-preview-wrap {
+    position: relative;
+}
+.edit-preview .btn-edit-request {
+    background: #1D32A0;
+    color: #fff;
+    padding: 3px 3px;
+    border-radius: 30px;
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    top: 200px;
+    height: 25px;
+    z-index: 99;
+    line-height: 1;
+    width: 25px;
+    right: 15px;
+}
+.edit-preview .btn-edit-request .mdi {
+    font-size: 12px;
+}
+
+
+.edit-preview .btn-edit-request:active {
+    box-shadow: none;
+}
+.previewrequest-modal {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.edit-preview .modal-footer .btn-primary {
+    background: #1D32A0;
+    border: none;
+}
+.customers-settings-select .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    color: #000;
+}
+.customers-settings-select .bootstrap-select>.dropdown-toggle {
+    border-radius: 2px;
+}
+.sms-character-count {
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*right: 5px;*/
+    /*margin: 0;*/
+    text-align: right;
+    font-size: 12px;
+}
+.link-preview {
+    margin-top: 20px;
+}
+.customer-msg-preview .field {
+    text-align: center;
+}
+.modal-heading {
+    padding: 0 10px;
+}
+.modal-heading h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.crm-customers-settings-panel .sms-content {
+    padding: 10px 10px;
+}
+.crm-customers-settings-panel .email-content {
+    padding: 10px 10px;
+}
+
+.edit-preview i.fa {
+    margin-left: 5px;
+}
+
+#reset-email-default-preview,
+#reset-sms-default-preview{
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "GoogleAnalytics",
+    "alias": "googleanalytics",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\GoogleAnalytics\\Providers\\GoogleAnalyticsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

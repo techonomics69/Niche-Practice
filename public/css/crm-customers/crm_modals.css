@@ -1,0 +1,618 @@
+/* CSS FOR STEPS
+ */
+.add-contact-step1 .heading {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+.steps-nav-right ul li .stip {
+    background: #c6c6c6;
+    height: 6px;
+    border-radius: 15px;
+    width: 170px;
+    margin: 7px 0;
+}
+.table-hover>tbody>tr.no-hover:hover {
+    background-color: #ffffff;
+}
+.steps-nav-right ul li .active {
+    background: #1D32A0;
+}
+.steps-nav-right ul li h4 {
+    font-size: 14px;
+    color: #BDBDBD;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+.steps-nav-right ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+.steps-nav-right ul {
+    list-style: none;
+    float: right;
+    margin: 15px 0 15px;
+    padding: 0;
+}
+.add-contact-step1 .modal-footer {
+    padding: 15px;
+    text-align: center;
+    border: 0;
+}
+.add-contact-step1 .btn-cancel {
+    border: 1px solid #1D32A0;
+    border-radius: 0;
+    color: #1D32A0;
+    font-weight: 600;
+    width: 100%;
+    font-size: 18px;
+    background: none;
+    padding: 15px 0;
+}
+.add-contact-step1 .btn-save, #addCustomerFIle .btn-save{
+    background: #1D32A0;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 15px 0;
+    font-weight: 600;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.add-contact-step1 .modal-dialog {
+    width: 900px;
+}
+.add-contact-step1 .modal-content {
+    padding: 20px 30px 20px;
+}
+.add-contact-step1 .form-group .form-control::placeholder {
+    height: 45px;
+    color: #BDBDBD;
+    font-weight: 400;
+}
+.add-contact-step1 .form-group {
+    font-weight: 600;
+    color: #000;
+}
+.add-contact-step1 .form-control {
+    height:45px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: normal;
+    outline: none;
+
+}
+.header-right .form-inline {
+    float: right;
+}
+
+span.search-user
+{
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    z-index: 100;
+    display: block !important;
+}
+i.search-user
+{
+    font-size: 20px;
+}
+
+.header-right .user-search .form-control {
+    /*min-width: 270px;*/
+    min-width: 310px;
+    font-size: 14px;
+    padding: 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: block !important;
+}
+
+.tip-label {
+    color: #525252;
+    margin-bottom: 10px;
+}
+.tip-label i.fa {
+    color: #239d28;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.tip-label a {
+    color: #72a9ea;
+}
+
+.editor-content {
+    margin: 20px 0 0;
+}
+#email-preview-wrap .content-body  {
+    /*padding: 15px 20px 0px !important;*/
+    padding: 0px 20px 0px !important;
+}
+.editor-content .content-body {
+    background: #F9F9F9;
+    /*padding: 15px 20px 0px;*/
+    padding: 0px 20px 0px;
+    position: relative;
+}
+.inner-screen-preview .content-body {
+    background: none;
+    /*padding: 20px 20px 20px;*/
+}
+
+.editor-content .content-body p {
+    color: #787878;
+    margin-bottom: 20px;
+}
+.content-body .mdi {
+    background: #1D32A0;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 30px;
+    position: absolute;
+    font-size: 12px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.showCustomizeEmailModal .mdi, .showCustomizeSMSModal .mdi {
+    background: #1D32A0;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 30px;
+    /*position: absolute;*/
+    font-size: 12px;
+    /*bottom: 10px;*/
+    margin-left: 10px;
+}
+.email-preview-wrap .inner-screen-preview .demoLink
+{
+    display: none;
+}
+
+#sms-preview-wrap .content-body .sms-content
+{
+    padding-top: 0px !important;
+    padding-left: 25px !important;
+    padding-right: 30px !important;
+}
+a.demoLink{
+    /*color: #7d8184;*/
+}
+p#sms-content{
+    font-weight: 600;
+}
+#sms-preview-wrap .iphone-title{
+    padding-top: 75px;
+}
+#sms-preview-wrap .content-body.editor-mode{
+    max-width: 325px;
+    position: relative;
+    left: 30px;
+    top: 38px;
+    border: none;
+    padding: 0px 75px 0px 15px !important;
+}
+.editor-content .editor-mode {
+    border: 1px solid #E5E5E5;
+    background: none !important;
+    padding: 20px 20px 40px !important;
+
+}
+#email-preview-wrap .content-body.editor-mode {
+    width: 350px !important;
+    margin-left: 15px !important;
+    padding: 5px 20px 40px 4px !important;
+    /*height: 167px;*/
+    height: 147px;
+    margin-top: 10px;
+}
+#email-preview-wrap #customizedEmailMessage{
+    height: 137px;
+}
+#email-preview-wrap .content-body p{
+    max-height: 135px;
+    overflow: auto;
+    font-weight: 600;
+
+}
+#showCustomizeEmailModal, #showCustomizeSMSModal
+{
+    display: none;
+}
+#sms-preview-wrap .edit-icons{
+    right: 90px !important;
+
+}
+.link-text {
+    text-decoration: underline;
+    color: #1D32A0;
+}
+
+.add-contact-step1 .form-group span i {
+    color: #BDBDBD;
+    margin: 0 5px;
+    font-size: 14px;
+    /*margin-right: 0px;*/
+}
+
+.editor-content .editor-mode {
+    border:1px solid #E5E5E5;
+    background: none !important;
+    padding: 20px 20px 40px !important;
+}
+.reset-label {
+    float: right;
+    font-weight: 400;
+    color: #337ab7;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 60px;
+    font-weight: bold;
+}
+.editor-label-phone {
+    margin-left: 45px;
+}
+.reset-label:hover{
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.edit-icons {
+    position: absolute;
+    right: 10px;
+    bottom: -25px;
+}
+.edit-icons span.fa {
+    background: #B9B9B9;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 0 4px 0 0;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #fff;
+    -webkit-text-stroke: 1px #b9b9b9;
+    text-align: center;
+}
+
+#sms-content,
+#email-content,
+#customizedEmailMessage,
+#customizedSMSMessage{
+    /* word-break: break-all !important; */
+    white-space: pre-line !important;
+    word-wrap: break-word !important;
+    padding: 0px 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#sms-content div:last-of-type,
+#email-content div:last-of-type {
+    display: inline !important;
+}
+#sms-preview-wrap #customizedSMSMessage{
+    border: none;
+    resize: none;
+    height: 140px;
+}
+
+#customizedEmailMessage,
+#customizedSMSMessage{
+    border: none;
+    resize: none;
+    height: 100px;
+}
+#sms-preview-wrap #customizedSMSMessage{
+    margin-top: -20px;
+}
+
+.email-preview-wrap .email-content, .sms-preview-wrap .sms-content {
+    /*background: #F9F9F9 !important;*/
+    background: none;
+}
+
+/*#email-content .demoLink, #customizedEmailMessagePreview .demoLink {
+    text-decoration: underline !important;
+}*/
+
+.tooltip a.crm_dropdown_tooltip{
+    color: gainsboro !important;
+}
+
+.st-1-header {
+    padding: 0 0 0 20px;
+}
+
+
+.st-2-header {
+    padding: 0 15px;
+}
+.st-2-header .steps-nav-right ul li .stip {
+    background: #c6c6c6;
+    height: 6px;
+    border-radius: 15px;
+    width: 70px;
+}
+.st-2-header .steps-nav-right ul li .active {
+    background: #1D32A0;
+}
+.step-body .download-csv-section {
+    background: #F9F9F9;
+    text-align: center;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+.step-body h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.step-body .upload-csv-section {
+    background: #F9F9F9;
+    text-align: center;
+    border:1px solid #9d9d9d;
+    border-style: dashed;
+    /*padding: 30px 0;*/
+    margin: 30px 0;
+}
+
+
+.step-body .download-csv-section .download-link {
+    margin-top: 30px;
+}
+.step-body .download-csv-section img {
+    width: 12%;
+}
+.step-body .download-csv-section .download-link a {
+    color: #1D32A0;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+.step-body .upload-csv-section img {
+    width: 12%;
+}
+.step-body .upload-csv-section .upload-link h3 {
+    font-weight: 600;
+    color: #000;
+}
+
+.step-body .upload-csv-section .upload-link span{
+    color: #EF3F52;
+    cursor: pointer;
+}
+.table-contacts .table > thead > tr > th {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+}
+.table-contacts .table>tbody>tr>td {
+    /*color: #999999;*/
+    color: #7e7d7d;
+    text-align: center;
+}
+.table-contacts .table>tbody>tr>td, .table-contacts .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 20px 30px;
+    padding-left: 0;
+}
+.table-contacts {
+    margin-top: 20px;
+}
+
+#drop-files, #drop-files-section {
+    padding: 30px 0;
+    border: none !important
+}
+
+#fileUploadForm{
+    display: inline;
+}
+
+button[data-id="countryCodesList"] span.caret{
+    display: none;
+}
+
+.add-contact-step1 .bootstrap-select button {
+    height: 45px !important;
+}
+
+.inputContainer-name, .inputContainer-mail, .inputContainer-phone {
+    position: relative;
+    margin-bottom: 20px;
+}
+.inputContainer-name:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 15px;
+    background: url("../../images/form-images/name-bg-input.png");
+    background-repeat: no-repeat;
+    background-size: 20px 18px;
+}
+.inputContainer-mail:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 15px;
+    background: url(../../images/form-images/email-bg-input.png);
+    background-repeat: no-repeat;
+    background-size: 20px 16px;
+}
+.inputContainer-phone:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 15px;
+    background: url(../../images/form-images/phone-bg-input.png);
+    background-repeat: no-repeat;
+    background-size: 20px 18px;
+}
+.inputContainer-name .bg-divider, .inputContainer-mail .bg-divider, .inputContainer-phone .bg-divider {
+    position: absolute;
+    background: #DDDDDD;
+    width: 1px;
+    padding: 15px 0;
+    top: 10px;
+    left: 50px;
+}
+.inputContainer-name input.customerFirstName,
+.inputContainer-name input.customerLastName,
+.inputContainer-mail input.customerInfoEmail,
+.inputContainer-phone input.customerInfoPhone {
+    padding-left: 60px;
+    color: #000;
+}
+.btn-customer-update {
+    background: #1D32A0;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 0;
+}
+
+.btn-customer-update:hover {
+    color: #fff;
+    background: #1D32A0;
+}
+
+@media(max-width:550px){
+    .add_contact_modal .modal-footer .btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .steps-nav-right ul li .stip {
+        width: 100px;
+    }
+    .page-header .user-search {
+        width: 100%;
+    }
+    .header-info-btn {
+        padding: 8px 28px;
+    }
+    .header-info-btn {
+        margin-right: 15px;
+    }
+    .header-right .header-primary-btn {
+        padding: 10px 35px;
+    }
+
+    .add-contact-step1 .step2 .btn-save {
+        font-size: 14px;
+    }
+    .user-search i.fa {
+        visibility: hidden;
+    }
+    .search-user {
+        display: block !important;
+    }
+    .header-right .user-search .form-control {
+        margin-bottom: 10px;
+        padding: 0;
+        min-width: 200px !important;
+    }
+    .header-info-btn {
+        padding: 6px 20px;
+    }
+    .header-info-btn {
+        padding: 8px 18px!important;
+    }
+    .header-right .header-primary-btn {
+        padding: 8px 18px!important;
+    }
+    #customers-list_wrapper .dataTables_info {
+        position: relative;
+        top: -10px !important;
+    }
+    .add-contact-step1 .modal-content {
+        padding: 20px 5px 20px;
+    }
+    .steps-nav-right ul li {
+        margin: 0 10px 0 0;
+    }
+
+
+}
+@media(max-width:786px){
+    .add-contact-step1 .heading {
+        text-align: center;
+        font-size: 20px;
+    }
+    .payment-billing .modal-billing {
+        width:90% !important;
+    }
+    .add-contact-step1 .modal-dialog {
+        width: 85% !important;
+    }
+    .steps-nav-right ul {
+        text-align: center;
+        float: none;
+    }
+    .page-header .user-search {
+        margin-top: 0;
+    }
+    .add-contact-step1 .step2 .btn-save {
+        margin-top: 10px;
+    }
+    .header-info-btn i.mdi {
+        font-size: 14px !important;
+    }
+    .header-right .form-inline {
+        float: right;
+        width: 100%;
+    }
+    .header-right .user-search .form-control {
+        min-width: 270px !important;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .page-header .form-group {
+        margin: 0 5px;
+        display: inline-block;
+    }
+    .add-contact-step1 .btn-cancel {
+        font-size: 15px;
+    }
+    .add-contact-step1 .btn-save {
+        font-size: 15px;
+    }
+    .tip-label {
+        display: flex;
+    }
+}
+@media(max-width:1024px) {
+    .add-contact-step1 .modal-dialog {
+        width: 700px;
+    }
+    .steps-nav-right ul li .stip {
+        width: 120px;
+    }
+}
+@media(max-width:1366px) {
+    .page-content .page-header .header-right {
+        float: right;
+        width: 100%;
+    }
+    .header-right .user-search .form-control {
+        min-width: 240px;
+    }
+    .header-info-btn {
+        padding: 8px 20px;
+        margin-right: 2px;
+    }
+    .header-right .header-primary-btn {
+        padding: 8px 20px;
+    }
+    .page-content .page-header .header-right i {
+        cursor: pointer;
+    }
+}
